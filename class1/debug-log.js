@@ -247,6 +247,7 @@ window.debug = (function(){
   //  limit - (Number) If specified, number of lines to limit initial scrollback
   //    to.
   
+  console.log("greg");
   that.setCallback = function() {
     var args = aps.call( arguments ),
       max = logs.length,
